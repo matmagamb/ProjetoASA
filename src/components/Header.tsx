@@ -1,9 +1,19 @@
+import { PachisiLogo } from "./PachisiLogo"
+
 export function Header() {
     return (
-        <header className="w-full h-[100vh] bg-transparent flex flex-1 items-center justify-center p-6">
-            <div className="">
+        <header className="w-full bg-white flex flex-1 items-center justify-center p-3">
+            <div className="flex flex-1 justify-between px-12">
 
-                <h1 className="text-orange-400 text-4xl">Site em construção!!!</h1>
+
+                <PachisiLogo />
+                <div className="text-orange-500 flex items-center justify-between gap-3 font-bold text-md ">
+                    <a href="#">Home</a>
+                    <a href="#">em Breve</a>
+                    <a href="#">em Breve</a>
+                    <a href="#">em Breve</a>
+                    <a href="#">em Breve</a> 
+                </div>
             </div>
         </header>
     )
