@@ -10,9 +10,9 @@ export function Home() {
             <Header />
             <SocialMidia />
             <InicialBanner />
-            <section className=" bg-white flex flex-auto justify-around my-20 ">
+            <section className=" bg-white flex justify-around mt-20 ">
                 
-                <div className="  h-[70vh]">
+                <div className="h-[70vh]">
                     <img src={Jump} alt="mulher fazendo exercicio" className="border-4 border-dashed" />
                 </div>
                
