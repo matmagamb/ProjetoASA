@@ -42,7 +42,7 @@ export function Home() {
                 <article className="flex flex-1 justify-center items-center" >
 
                     <div className="w-[500px] h-[500px] ">
-                        <div className="mb-8 mt-20">
+                        <div className="mb-20 mt-10">
 
                             <h1 className="text-3xl font-bold">LOREN IPSUN</h1>
                             <span className="text-2xl font-normal tracking-tighter leading-7 ">Personal trainer & Personal Fight</span>
@@ -52,8 +52,13 @@ export function Home() {
 
 
                         </p>
+                        <div className="mt-16">
+                            <a href="#" className="text-xl text-zinc-50 font-normal border rounded-full bg-[#FF5A29] py-1 px-7">Ver planos
+                            </a>
+                        </div>
                     </div>
                 </article>
+
 
             </section>
 
