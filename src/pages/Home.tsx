@@ -1,6 +1,8 @@
 import { Header } from "../components/Header";
 import { InicialBanner } from "../components/InicialBanner";
 import { SocialMidia } from "../components/SocialMidia";
+import Personal from "../assets/Personal.png";
+import Jump from "../assets/Jump.png";
 
 export function Home() {
     return (
@@ -10,14 +12,14 @@ export function Home() {
             <InicialBanner />
             <section className=" bg-white flex flex-auto justify-around my-20 ">
                 
-                <div className=" flex h-[70vh]">
-                    <img src="src/assets/Jump.png" alt="mulher fazendo exercicio" className="border-4 border-dashed" />
+                <div className="  h-[70vh]">
+                    <img src={Jump} alt="mulher fazendo exercicio" className="border-4 border-dashed" />
                 </div>
                
                 <article className="max-w-[32vw] max-h-[70vh] flex flex-col justify-start ">
                     
                     <div className="pb-16 pt-36 " >
-                       <img src="src\assets\PersonaltrainerOnline.png" alt="texto Personal Trainer Online" />
+                       <img src={Personal} alt="texto Personal Trainer Online" />
 
                     </div>
                     <p className="text-md font-medium ">
