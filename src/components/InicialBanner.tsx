@@ -1,6 +1,6 @@
 export function InicialBanner() {
     return (
-        <section className=" flex flex-1 flex-col justify-center w-full h-[80vh] bg-banner bg-cover bg-right bg-origin-content bg-no-repeat">
+        <section className=" flex flex-1 text-zinc-50 flex-col justify-center w-full h-[87vh] bg-banner bg-cover bg-right bg-origin-content bg-no-repeat">
             <article className="pl-40" >
 
                 <h1 className="text-4xl font-medium">consectetur adipiscing elit</h1>
