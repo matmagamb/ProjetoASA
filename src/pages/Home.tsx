@@ -6,7 +6,7 @@ import { SocialMidia } from "../components/SocialMidia";
 import Personal from "../assets/Personal.png";
 import Jump from "../assets/Jump.png";
 import Punch from "../assets/Punch.png";
-import Piao from "../assets/piao.png";
+import Chess from "../assets/chess.png";
 import PilarOne from "../assets/PilarOne.png";
 import PilarTwo from "../assets/PilarTwo.png";
 import PilarThree from "../assets/pilarThree.png";
@@ -90,7 +90,7 @@ export function Home() {
 
             <section className="flex  justify-around items-center h-[800px] bg-[#FF5A29] " >
                 <div>
-                    <img src={Piao} alt="" />
+                    <img src={Chess} alt="" />
                 </div>
 
                 <article className="pt-16 w-[700px] h-[500px] text-zinc-100">

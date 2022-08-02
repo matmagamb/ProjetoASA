@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 body{
-    @apply text-[#414141] m-0 p-0;
+    @apply text-[#414141] m-0 p-0 overflow-x-hidden;
     -webkit-font-smoothing: antialiased;
     
 }
