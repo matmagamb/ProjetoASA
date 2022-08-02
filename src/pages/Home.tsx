@@ -70,6 +70,25 @@ export function Home() {
                 </article>
             </section>
 
+            <section className="flex flex-col justify-center items-center h-[700px] ">
+                <div className="w-[900px]">
+
+                    <div className="flex">
+                        <img src={alunos.Aluno1.imageURL} alt="" className="w-[100px] rounded-full border-2 border-gray-600" />
+                        <div className="ml-8">
+                            <h1 className="text-5xl font-semibold text-[#FF6F29] ">{alunos.Aluno1.nome}</h1>
+                            <span className="text-3xl font-light leading-8">{alunos.Aluno1.function}</span>
+                        </div>
+                    </div>
+
+                    <article className="mt-12">
+                        <p className="break-words">{alunos.Aluno1.descrip}</p>
+                    </article>
+
+                </div>
+            </section>
+
+            
         </>
     )
 }
