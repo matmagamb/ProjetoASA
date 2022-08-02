@@ -105,53 +105,28 @@ export function Home() {
             </section>
 
 
-            <section className="flex  justify-center items-center h-[700px]">
-                <div className=" h-[600px] w-full mx-28 ">
 
-                    <div className="mb-20">
-                        <h1 className="text-4xl font-bold">Pilares</h1>
-                        <span className="text-2xl font-normal leading-7 ">Lorem Ipsu dolor set ipsum</span>
-                    </div>
-
-                    <div className=" flex justify-between  h-auto ">
-                        <div className=" w-[250px] hover:scale-105 transition-all group ">
-                            <img src={Pilarone} alt="" />
-                            <h2 className="text-2xl font-bold mb-4 mt-4  group-hover:text-orange-500 ">Mente</h2>
-                            <p className="text-sm ">
-                                Lorem Ipsu dolor set ipsum lorem Ipsu dolor set ipsum Lorem Ipsu Lorem Ipsu dolor set ipsum lorem Ipsu dolor set ipsum Lorem
-                            </p>
-                        </div>
-
-                        <div className=" w-[250px] hover:scale-105 transition-all group ">
-                            <img src={Pilartwo} alt="" />
-                            <h2 className="text-2xl font-bold mb-4 mt-4  group-hover:text-orange-500 ">Exercicio</h2>
-                            <p className="text-sm ">
-                                Lorem Ipsu dolor set ipsum lorem Ipsu dolor set ipsum Lorem Ipsu Lorem Ipsu dolor set ipsum lorem Ipsu dolor set ipsum Lorem
-                            </p>
-                        </div>
-
-                        <div className=" w-[250px] hover:scale-105 transition-all group ">
-                            <img src={Pilarthree} alt="" />
-                            <h2 className="text-2xl font-bold mb-4 mt-4  group-hover:text-orange-500 ">Alimentação</h2>
-                            <p className="text-sm ">
-                                Lorem Ipsu dolor set ipsum lorem Ipsu dolor set ipsum Lorem Ipsu Lorem Ipsu dolor set ipsum lorem Ipsu dolor set ipsum Lorem
-                            </p>
-                        </div>
-
-                        <div className=" w-[250px] hover:scale-105 transition-all group ">
-                            <img src={Pilarfour} alt="" />
-                            <h2 className="text-2xl font-bold mb-4 mt-4 group-hover:text-orange-500 ">Descanso</h2>
-                            <p className="text-sm ">
-                                Lorem Ipsu dolor set ipsum lorem Ipsu dolor set ipsum Lorem Ipsu Lorem Ipsu dolor set ipsum lorem Ipsu dolor set ipsum Lorem
-                            </p>
-                        </div>
-
-
-                    </div>
+            <section className="flex  justify-around items-center h-[800px] bg-[#0094DD] " >
+                <div className="bg-HandBg min-w-[590.85px] min-h-[379.05px] flex justify-center items-center">
+                    <img src={Hand} alt="" />
                 </div>
 
-            </section>
+                <article className="pt-16 w-[700px] h-[600px] text-zinc-100">
+                    <div className="mb-16 mt-10">
 
+                        <h1 className="text-3xl font-bold">Contato</h1>
+                        <span className="text-2xl font-light leading-7 ">Lorem ipsum dolor sit</span>
+                    </div>
+                    <p className="text-md font-normal">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed accumsan, nisi nec sodales pulvinar, metus erat sollicitudin massa, placerat blandit lorem est imperdiet est. Proin ultrices magna vel mi commodo finibus. Nulla urna ex, imperdiet ut bibendum et, auctor sed mauris. Donec tempus a dolor in porttitor. Quisque ultrices, arcu in viverra vulputate, mi metus posuere mauris, non porttitor justo massa et mi. Donec dignissim nibh dui, et commodo risus lacinia ac. Lorem ipsum dolor sit amet,
+                    </p>
+                    <div className="mt-20 hover:scale-105 transition-all">
+                            <a href="#" className=" text-xl text-zinc-50 font-normal  rounded-full bg-[#83BC3F] py-2 px-7">
+                                Entrar em contato
+                            </a>
+                        </div>
+                </article>
+            </section>
 
         </>
     )
