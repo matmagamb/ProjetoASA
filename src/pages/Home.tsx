@@ -88,7 +88,25 @@ export function Home() {
                 </div>
             </section>
 
+            <section className="flex  justify-around items-center h-[800px] bg-[#FF5A29] " >
+                <div>
+                    <img src={Chess} alt="" />
+                </div>
+
+                <article className="pt-16 w-[700px] h-[500px] text-zinc-100">
+                    <div className="mb-16 mt-10">
+
+                        <h1 className="text-3xl font-bold">Proposito</h1>
+                        <span className="text-2xl font-light tracking-tighter leading-7 ">Porque fazemos oque fazemos</span>
+                    </div>
+                    <p className="text-md font-normal">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed accumsan, nisi nec sodales pulvinar, metus erat sollicitudin massa, placerat blandit lorem est imperdiet est. Proin ultrices magna vel mi commodo finibus. Nulla urna ex, imperdiet ut bibendum et, auctor sed mauris. Donec tempus a dolor in porttitor. Quisque ultrices, arcu in viverra vulputate, mi metus posuere mauris, non porttitor justo massa et mi. Donec dignissim nibh dui, et commodo risus lacinia ac. Lorem ipsum dolor sit amet,</p>
+                </article>
+            </section>
+
+
             
+
         </>
     )
 }
