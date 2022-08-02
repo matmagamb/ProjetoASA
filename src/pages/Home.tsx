@@ -7,10 +7,10 @@ import Personal from "../assets/Personal.png";
 import Jump from "../assets/Jump.png";
 import Punch from "../assets/Punch.png";
 import Chess from "../assets/chess.png";
-import PilarOne from "../assets/Pilarone.png";
-import PilarTwo from "../assets/Pilartwo.png";
-import PilarThree from "../assets/pilarthree.png";
-import PilarFour from "../assets/Pilarfour.png";
+import Pilarone from "../assets/Pilarone.png";
+import Pilartwo from "../assets/Pilartwo.png";
+import Pilarthree from "../assets/pilarthree.png";
+import Pilarfour from "../assets/Pilarfour.png";
 import Hand from "../assets/hand.png";
 
 import { alunos } from "../teste/teste";
@@ -115,7 +115,7 @@ export function Home() {
 
                     <div className=" flex justify-between  h-auto ">
                         <div className=" w-[250px] hover:scale-105 transition-all group ">
-                            <img src={PilarOne} alt="" />
+                            <img src={Pilarone} alt="" />
                             <h2 className="text-2xl font-bold mb-4 mt-4  group-hover:text-orange-500 ">Mente</h2>
                             <p className="text-sm ">
                                 Lorem Ipsu dolor set ipsum lorem Ipsu dolor set ipsum Lorem Ipsu Lorem Ipsu dolor set ipsum lorem Ipsu dolor set ipsum Lorem
@@ -123,7 +123,7 @@ export function Home() {
                         </div>
 
                         <div className=" w-[250px] hover:scale-105 transition-all group ">
-                            <img src={PilarTwo} alt="" />
+                            <img src={Pilartwo} alt="" />
                             <h2 className="text-2xl font-bold mb-4 mt-4  group-hover:text-orange-500 ">Exercicio</h2>
                             <p className="text-sm ">
                                 Lorem Ipsu dolor set ipsum lorem Ipsu dolor set ipsum Lorem Ipsu Lorem Ipsu dolor set ipsum lorem Ipsu dolor set ipsum Lorem
@@ -131,7 +131,7 @@ export function Home() {
                         </div>
 
                         <div className=" w-[250px] hover:scale-105 transition-all group ">
-                            <img src={PilarThree} alt="" />
+                            <img src={Pilarthree} alt="" />
                             <h2 className="text-2xl font-bold mb-4 mt-4  group-hover:text-orange-500 ">Alimentação</h2>
                             <p className="text-sm ">
                                 Lorem Ipsu dolor set ipsum lorem Ipsu dolor set ipsum Lorem Ipsu Lorem Ipsu dolor set ipsum lorem Ipsu dolor set ipsum Lorem
@@ -139,7 +139,7 @@ export function Home() {
                         </div>
 
                         <div className=" w-[250px] hover:scale-105 transition-all group ">
-                            <img src={PilarFour} alt="" />
+                            <img src={Pilarfour} alt="" />
                             <h2 className="text-2xl font-bold mb-4 mt-4 group-hover:text-orange-500 ">Descanso</h2>
                             <p className="text-sm ">
                                 Lorem Ipsu dolor set ipsum lorem Ipsu dolor set ipsum Lorem Ipsu Lorem Ipsu dolor set ipsum lorem Ipsu dolor set ipsum Lorem
