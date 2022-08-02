@@ -7,10 +7,10 @@ import Personal from "../assets/Personal.png";
 import Jump from "../assets/Jump.png";
 import Punch from "../assets/Punch.png";
 import Chess from "../assets/chess.png";
-import PilarOne from "../assets/PilarOne.png";
-import PilarTwo from "../assets/PilarTwo.png";
-import PilarThree from "../assets/pilarThree.png";
-import PilarFour from "../assets/PilarFour.png";
+import PilarOne from "../assets/Pilarone.png";
+import PilarTwo from "../assets/Pilartwo.png";
+import PilarThree from "../assets/pilarthree.png";
+import PilarFour from "../assets/Pilarfour.png";
 import Hand from "../assets/hand.png";
 
 import { alunos } from "../teste/teste";
