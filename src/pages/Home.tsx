@@ -105,6 +105,31 @@ export function Home() {
             </section>
 
 
+            <section className="flex  justify-center items-center h-[700px]">
+                <div className=" h-[600px] w-full mx-28 ">
+
+                    <div className="mb-20">
+                        <h1 className="text-4xl font-bold">Pilares</h1>
+                        <span className="text-2xl font-normal leading-7 ">Lorem Ipsu dolor set ipsum</span>
+                    </div>
+
+                    <div className=" flex justify-between  h-auto ">
+                        <div className=" w-[250px] hover:scale-105 transition-all group ">
+                            <img src={Pilarone} alt="" />
+                            <h2 className="text-2xl font-bold mb-4 mt-4  group-hover:text-orange-500 ">Mente</h2>
+                            <p className="text-sm ">
+                                Lorem Ipsu dolor set ipsum lorem Ipsu dolor set ipsum Lorem Ipsu Lorem Ipsu dolor set ipsum lorem Ipsu dolor set ipsum Lorem
+                            </p>
+                        </div>
+
+                        
+
+
+                    </div>
+                </div>
+
+            </section>
+
 
             <section className="flex  justify-around items-center h-[800px] bg-[#0094DD] " >
                 <div className="bg-HandBg min-w-[590.85px] min-h-[379.05px] flex justify-center items-center">
