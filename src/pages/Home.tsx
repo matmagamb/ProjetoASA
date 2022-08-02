@@ -7,10 +7,11 @@ import Personal from "../assets/Personal.png";
 import Jump from "../assets/Jump.png";
 import Punch from "../assets/Punch.png";
 import Chess from "../assets/chess.png";
-import Pilarone from "../assets/Pilarone.png";
-import Pilartwo from "../assets/Pilartwo.png";
-import Pilarthree from "../assets/pilarthree.png";
-import Pilarfour from "../assets/Pilarfour.png";
+
+import mente from "../assets/mente.png";
+import exerc from "../assets/exerc.png";
+import alim from "../assets/alim.png";
+import desc from "../assets/desc.png";
 import Hand from "../assets/hand.png";
 
 import { alunos } from "../teste/teste";
@@ -115,14 +116,36 @@ export function Home() {
 
                     <div className=" flex justify-between  h-auto ">
                         <div className=" w-[250px] hover:scale-105 transition-all group ">
-                            <img src={Pilarone} alt="" />
+                            <img src={mente} alt="" />
                             <h2 className="text-2xl font-bold mb-4 mt-4  group-hover:text-orange-500 ">Mente</h2>
                             <p className="text-sm ">
                                 Lorem Ipsu dolor set ipsum lorem Ipsu dolor set ipsum Lorem Ipsu Lorem Ipsu dolor set ipsum lorem Ipsu dolor set ipsum Lorem
                             </p>
                         </div>
 
-                        
+                        <div className=" w-[250px] hover:scale-105 transition-all group ">
+                            <img src={exerc} alt="" />
+                            <h2 className="text-2xl font-bold mb-4 mt-4  group-hover:text-orange-500 ">Exercicio</h2>
+                            <p className="text-sm ">
+                                Lorem Ipsu dolor set ipsum lorem Ipsu dolor set ipsum Lorem Ipsu Lorem Ipsu dolor set ipsum lorem Ipsu dolor set ipsum Lorem
+                            </p>
+                        </div>
+
+                        <div className=" w-[250px] hover:scale-105 transition-all group ">
+                            <img src={alim} alt="" />
+                            <h2 className="text-2xl font-bold mb-4 mt-4  group-hover:text-orange-500 ">Alimentação</h2>
+                            <p className="text-sm ">
+                                Lorem Ipsu dolor set ipsum lorem Ipsu dolor set ipsum Lorem Ipsu Lorem Ipsu dolor set ipsum lorem Ipsu dolor set ipsum Lorem
+                            </p>
+                        </div>
+
+                        <div className=" w-[250px] hover:scale-105 transition-all group ">
+                            <img src={desc} alt="" />
+                            <h2 className="text-2xl font-bold mb-4 mt-4 group-hover:text-orange-500 ">Descanso</h2>
+                            <p className="text-sm ">
+                                Lorem Ipsu dolor set ipsum lorem Ipsu dolor set ipsum Lorem Ipsu Lorem Ipsu dolor set ipsum lorem Ipsu dolor set ipsum Lorem
+                            </p>
+                        </div>
 
 
                     </div>
